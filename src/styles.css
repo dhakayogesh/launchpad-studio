@@ -232,7 +232,7 @@
 .photo-placeholder { position: relative; display: flex; min-height: 12rem; align-items: flex-end; overflow: hidden; background: var(--paper); }
 .photo-placeholder__label { position: relative; z-index: 1; display: inline-block; margin: 1rem; border: 1px solid color-mix(in oklab, var(--foreground) 22%, transparent); padding: 0.35rem 0.55rem; color: var(--foreground); background: color-mix(in oklab, var(--background) 82%, transparent); font-size: 0.64rem; }
 .photo-placeholder--opening { position: absolute; inset: 0; min-height: unset; background: var(--heritage); }
-.photo-placeholder--opening .photo-placeholder__label { color: var(--heritage-foreground); border-color: color-mix(in oklab, var(--heritage-foreground) 35%, transparent); background: color-mix(in oklab, var(--heritage) 88%, transparent); }
+.photo-placeholder--opening .photo-placeholder__label { position: absolute; top: 1rem; right: 1rem; bottom: auto; margin: 0; color: var(--heritage-foreground); border-color: color-mix(in oklab, var(--heritage-foreground) 35%, transparent); background: color-mix(in oklab, var(--heritage) 88%, transparent); }
 .opening__content { position: relative; z-index: 2; width: min(100% - 3rem, 80rem); margin-inline: auto; padding: 7.2rem 0 7.5rem; color: var(--heritage-foreground); pointer-events: none; }
 .opening__content a { pointer-events: auto; }
 .eyebrow { margin: 0 0 1rem; color: var(--antique-gold); font-size: 0.68rem; font-weight: 600; text-transform: uppercase; }
