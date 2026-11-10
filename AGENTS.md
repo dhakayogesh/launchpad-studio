@@ -28,3 +28,6 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Project conventions
+- Keep the staged hotel website readable and lightweight: compose each page from small, plainly named site components, and put shared design tokens and page styling in `src/styles.css` so future edits stay consistent.
